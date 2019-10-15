@@ -1,0 +1,16 @@
+console.log("Entrou no primeiro get da inclusao de livros <<<<<<<<<<<<<<<<<<<<");
+
+ordem -->> 1º GET -->> 1º POST -->> 2º GET
+
+conteudo action do form da inclusao --> /livros/manutencaoLivros/inclusaoLivros
+
+ATENCAO -->> atentar para o method na action da pagina inicial da funcionalidade, pode ser post ou get -->> <form action="/livros/manutencaoLivros/buscaLivros" method="post">
+
+String da busca por itulo em teste: 
+
+                // 'SELECT * FROM livros WHERE titulo = 123',  
+
+                // 'SELECT * FROM livros WHERE titulo = values(?)',[livro.titulo]  
+                'SELECT * FROM livros WHERE titulo = (?)' , [livro.titulo],  
+
+
